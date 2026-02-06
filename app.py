@@ -17,7 +17,6 @@ crypto_name = st.text_input("Enter Cryptocurrency Name (e.g., Bitcoin)")
 price_change = st.number_input(
     "Enter Daily Price Change (%)",
     min_value=0.0,
-    max_value=100.0,
     step=0.1
 )
 
